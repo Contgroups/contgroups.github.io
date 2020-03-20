@@ -1,0 +1,22 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: #3b3d42;
+    background-image: url('../files/Background.png'); 
+    text-align: center;
+   
+}
+
+h1{
+    color: white;
+    
+    
+    font-family: sans-serif, cursive;
+    
+}
+im1{
+    margin-top:100px; 
+    
+}
+
