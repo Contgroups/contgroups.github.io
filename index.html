@@ -12,20 +12,25 @@
 <body>
     <div class="contgroups">
         <h1>Сайт находится в разработке😶</h1>
-        <h2>Пишите нам в:</h2>
-        <a href="https://vk.com/contgroups">VK - vk.com/contgroups</a>
-        <br>
-        <a href="mailto:contgroups@mail.ru">Mail - contgroups@mail.ru</a>
+       
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+
+        <script type="text/javascript">
+            VK.init({
+                apiId: 7368493
+            });
+        </script>
+
+        
+        <div id="vk_auth"></div>
+        <script type="text/javascript">
+            VK.Widgets.Auth("vk_auth", {
+                "width": 500,
+                "authUrl": "/dev/Login"
+            });
+        </script>
+
     </div>
-<script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
-
-<!-- VK Widget -->
-<div id="vk_community_messages"></div>
-<script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 193174991, {expandTimeout: "5000",tooltipButtonText: "Есть вопрос?"});
-</script>
-
-
 
 
 </body></html>

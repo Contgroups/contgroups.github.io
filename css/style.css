@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #3b3d42;
     text-align: center;
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
 
 h1,
@@ -25,10 +25,17 @@ a:hover {
 
 .contgroups {
     margin: auto;
-    margin-top: 30px; 
-    padding-top: 10px; 
-    padding-bottom: 50px; 
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     width: 600px;
     background-color: #53575e;
-    border-radius: 20px;
+    border-radius: 5px;
+}
+
+#vk_auth {
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
