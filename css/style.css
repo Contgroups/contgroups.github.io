@@ -1,22 +1,36 @@
-body{
-    
+body {
+
     margin: 0;
     padding: 0;
     background-color: #3b3d42;
-    background-image: url('../files/Background.png'); 
     text-align: center;
-   
+    font-family: 'Fjalla One', sans-serif;
 }
 
-h1{
+h1,
+h2 {
     color: white;
-    
-    
-    font-family: sans-serif, cursive;
-    
-}
-im1{
-    margin-top:100px; 
-    
+  
+
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    transition: .2s;
+    color: darkgray;
+}
+
+.contgroups {
+    margin: auto;
+    margin-top: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 50px; 
+    width: 600px;
+    background-color: #53575e;
+    border-radius: 20px;
+}
